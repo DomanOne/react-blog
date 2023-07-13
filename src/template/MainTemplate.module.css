@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	background-color: rgb(110, 103, 110);
+	margin: 0 auto;
+	width: 90%;
+	height: 100%;
+	color: rgba(0, 0, 0, 0.89);
+	text-shadow: rgba(66, 52, 52, 0.616) 2px 2px;
+}
+
+button {
+	background-color: transparent;
+	border-radius: 2px;
+	border: 2px solid #3a8841;
+	margin: 5px;
+	color: rgb(31, 1, 34);
+	transition: 0.8s;
+	box-shadow: #0000004f 3px 2px;
+	min-width: 120px;
+}
+
+button:hover {
+	color: white;
+	background-color: #6fcc77;
+	border-radius: 20px;
+}
+
+.footer {
+	display: flex;
+	align-items: end;
+	height: 100vh;
+	font-size: 8px;
+	text-shadow: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin: 2%;
+}
